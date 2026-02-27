@@ -136,18 +136,21 @@ width: 222px;
 @media only screen and (min-width: 1440px) {
 .wild-section {
         background:
+            linear-gradient(180deg,
+                #050208 0%,
+                rgba(5, 2, 8, 0) 15.55%,
+                rgba(5, 2, 8, 0) 67.65%,
+                #050208 100%),
             linear-gradient(270deg,
-                rgba(5, 2, 8, 0.9) 0%,
-                rgba(5, 2, 8, 0.7) 15%,
-                rgba(5, 2, 8, 0.3) 35%,
-                rgba(5, 2, 8, 0.3) 65%,
-                rgba(5, 2, 8, 0.7) 85%,
-                rgba(5, 2, 8, 0.9) 100%),
+                rgba(5, 2, 8, 0.6) 20.84%,
+                rgba(5, 2, 8, 0) 35%,
+                rgba(5, 2, 8, 0) 65%,
+                rgba(5, 2, 8, 0.6) 80%),
             url("/img/wild/desk.png");
 
-        background-repeat: no-repeat, no-repeat;
-        background-position: top center, top 160px center;
-        background-size: cover, 814px 465px;
+        background-repeat: no-repeat;
+        background-position: top left, top right, bottom center;
+        background-size: cover, cover, 814px 465px;
     }
     .wild-title{
         font-size: 24px;
