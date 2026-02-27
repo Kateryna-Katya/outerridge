@@ -79,13 +79,47 @@
 </section>
 <section class="demon-section" id="demon">
     <div class="container demon-container">
-        <p class="headline">The Demon Encounter Round </p>
+        <p class="headline">The Demon Encounter Round</p>
         <h2 class="ritual-title">Demon Encounter — Confront the Underworld</h2>
         <p>In the encounter rounds, each demon has this little counter showing how much fight it's got left in it.<br/>When a Wild
         Attack channels energy into a Demon during this phase, part of its essence burns away. Bit by bit, symbol by symbol, the
         Demons weaken.<br/>
         Once a Demon’s tally reaches zero, it collapses into a Golden Wild, keeping its empowered form for the remainder of the
         encounter.<br/>And that's when you know you're getting somewhere - every little victory actually matters.</p>
+    </div>
+</section>
+<section class="demo-section" id="demo">
+    <div class="container demo-container">
+        <p class="headline">The Game</p>
+        <h1 class="visually-hidden">X-Demon</h1>
+        <p class="demo-text">outerridge.site IS A PLATFORM FOR HAVING FUN. THE OUTCOME OF THIS GAME EXPERIENCE SHOULD NOT BE CONSIDERED A REFLECTION OF
+        REAL-LIFE RESULTS. GAME IS INTENDED FOR ADULT AUDIENCES OVER 18 YEARS OF AGE. ENJOY THE EXPERIENCE.</p>
+<div class="demo-wrapper" id="game">
+    <picture>
+        <source srcset="
+                /img/demo/demo-desk.png 1x,
+                /img/demo/demo-desk@2x.png 2x
+                " media="(min-width: 1440px)" />
+        <source srcset="
+                /img/demo/demo-mob.png 1x,
+                /img/demo/demo-mob@2x.png 2x
+                " media="(max-width: 1439px)" />
+        <img class="demo-img" src="/img/demo/demo-mob.png" alt="X-Demon" loading="lazy" />
+    </picture>
+
+
+    <div class="iframe-wrapper">
+        <iframe id="gameIframe" name="gameIframe"></iframe>
+
+        <button id="closeIframeBtn" class="hidden-close-btn" aria-label="Close">
+            <img class="close-img" src="/img/demo/close.png" alt="Close">
+        </button>
+    </div>
+    <a class="demo-btn btn pulse" href="#game"
+        data-game-url="https://demo.evoplay.games/demo/fullstate/html5/evoplay/xdemon" target="gameIframe">
+        <p>Enter the Realm</p>
+    </a>
+</div>
     </div>
 </section>
     
