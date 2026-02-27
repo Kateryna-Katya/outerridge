@@ -1,3 +1,66 @@
 body{
   background: #050208;
+  background-image: url("/img/bg/mob.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  font-family: "Roboto Slab", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #d0d0d4;
+}
+h2{
+  font-family: "MedievalSharp", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.4;
+    text-align: center;
+    background: linear-gradient(180deg, #ead5ab 0%, #ffc043 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.headline{
+  font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #ead5ab;
+    opacity: 0.5;
+    text-align: left;
+    margin-bottom: 64px;
+}
+.btn{
+  border: 1px solid rgba(181, 64, 6, 0.6);
+    border-radius: 8px;
+    width: 280px;
+    height: 48px;
+    box-shadow: 1px 2px 2px 0 rgba(181, 64, 6, 0.5);
+      background: linear-gradient(180deg, #ffc043 0%, #b54006 100%);
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto Slab", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #050208;
+      transition: background 0.3s ease-in-out;
+  }
+  .btn:hover,
+  .btn:focus {
+background: linear-gradient(180deg, #ffc043 0%, #b54006 50%);
+}
+@media only screen and (min-width: 1440px) {
+body {
+    background-image: url("/img/bg/desk.png");
+        font-size: 16px;
+  }
+  h2{
+    font-size: 40px;
+  }
+    .headline{
+      margin-bottom: 48px;
+    }
 }

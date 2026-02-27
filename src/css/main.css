@@ -1,0 +1,155 @@
+.home-section{
+    background: linear-gradient(180deg, rgba(5, 2, 8, 0) 50%, rgba(5, 2, 8, 0.5) 74.3%, #050208 100%);
+}
+.home-wrapper{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-title{
+    font-family: "MedievalSharp", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.4;
+        text-align: center;
+        background: linear-gradient(180deg, #d0d0d4 0%, #ffc043 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.home-text{
+    margin-top: 72px;
+        font-size: 18px;
+        line-height: 1.4;
+        color: #ead5ab;
+        width: 323px;
+}
+.home-text-two{
+    margin-top: 175px;
+    font-size: 12px;
+    width: 323px;
+    margin-bottom: 48px;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+    .home-wrapper{
+        margin-top: 100px;
+    }
+   .home-title{
+    font-size: 56px;
+   }
+.desk {
+    display: block;
+}
+.home-text{
+    width: 100%;
+    font-size: 24px;
+    margin-top: 48px;
+}
+.home-text-two{
+    margin-top: 48px;
+    width: 556px;
+    font-size: 16px;
+    margin-bottom: 54px;
+}
+.mob{
+    display: none;
+}
+.home-container{
+    padding-bottom: 234px;
+}
+}
+/* The World Behind The Altar */
+.world-section{
+    background-color: #050208;
+    background-image: url("/img/world/mob.png");
+    background-position: top 350px center;
+    background-repeat: no-repeat;
+    background-size: 100% 254px;
+}
+.world-wrapper{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 302px;
+}
+@media only screen and (min-width: 1440px) {
+.world-section {
+        background-color: #050208;
+        background-image: url("/img/world/desk.png");
+        background-position: bottom 64px center;
+        background-size: 1200px 720px;
+        height: 1028px;
+    }
+.world-wrapper {
+    margin-top: 40px;
+    gap:0;
+    width: 942px;
+   
+}
+}
+/* Wild Attack Mechanic */
+.wild-section {
+    background:
+            linear-gradient(270deg,
+                    rgba(5, 2, 8, 0.9) 0%,
+                    rgba(5, 2, 8, 0.7) 15%,
+                    rgba(5, 2, 8, 0.3) 35%,
+                    rgba(5, 2, 8, 0.3) 65%,
+                    rgba(5, 2, 8, 0.7) 85%,
+                    rgba(5, 2, 8, 0.9) 100%),
+        url("/img/wild/mob.png");
+
+    background-repeat: no-repeat, no-repeat;
+    background-position: top center, top 190px center;
+    background-size: cover, 100% 211px;
+}
+.wild-title{
+    font-size: 30px;
+}
+.wild-text{
+font-size: 19px;
+margin-top: 40px;
+}
+.wild-list{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.wild-item{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.wild-text-item{
+    font-size: 12px;
+text-align: left;
+width: 222px;
+}
+@media only screen and (min-width: 1440px) {
+.wild-section {
+        background:
+            linear-gradient(270deg,
+                rgba(5, 2, 8, 0.9) 0%,
+                rgba(5, 2, 8, 0.7) 15%,
+                rgba(5, 2, 8, 0.3) 35%,
+                rgba(5, 2, 8, 0.3) 65%,
+                rgba(5, 2, 8, 0.7) 85%,
+                rgba(5, 2, 8, 0.9) 100%),
+            url("/img/wild/desk.png");
+
+        background-repeat: no-repeat, no-repeat;
+        background-position: top center, top 160px center;
+        background-size: cover, 814px 465px;
+    }
+    .wild-title{
+        font-size: 24px;
+    }
+}
