@@ -152,4 +152,67 @@ width: 222px;
     .wild-title{
         font-size: 24px;
     }
+.wild-list{
+    flex-direction: row;
+    gap: 48px;
+    justify-content: center;
+}
+.wild-item{
+    flex-direction: row-reverse;
+}
+.wild-text-item{
+    font-size: 16px;
+    text-align: center;
+    width: 353px;
+}
+.wild-container{
+    padding-bottom: 135px;
+}
+}
+/* Ritual Mark Symbol */
+.ritual-section{
+    background-image: url("/img/ritual/mob.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% 201px;
+    height: 609px;
+}
+.ritual-title{
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+.ritual-section {
+    background-image:
+            linear-gradient(180deg,
+                #050208 10%,
+                rgba(5, 2, 8, 0.85) 25%,
+                rgba(5, 2, 8, 0.3) 45%,
+                rgba(5, 2, 8, 0.3) 65%,
+                rgba(5, 2, 8, 0.85) 85%,
+                #050208 100%),
+            linear-gradient(270deg,
+                #050208 8%,
+                rgba(5, 2, 8, 0.8) 18%,
+                rgba(5, 2, 8, 0.25) 40%,
+                rgba(5, 2, 8, 0.25) 60%,
+                rgba(5, 2, 8, 0.8) 82%,
+                #050208 100%),
+            url("/img/ritual/desk.png");
+    
+        background-position: top left, top right, bottom center;
+        background-repeat: no-repeat;
+        background-size: cover, cover, 998px 536px;
+        height: 814px;
+    }
+
+    .ritual-title {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .ritual-text{
+        width: 897px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
