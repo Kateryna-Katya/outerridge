@@ -219,3 +219,20 @@ width: 222px;
         margin-right: auto;
     }
 }
+/* The Demon Encounter Round */
+.demon-section {
+    background-image: url("/img/demon/mob.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% 412px;
+    height: 850px;
+}
+@media only screen and (min-width: 1440px) {
+.demon-section {
+        background-image: url("/img/demon/desk.png");
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        background-size: 100% 852px;
+        height: 1090px;
+    }
+}
